@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mixing & Mastering – Portfolio</title>
+
+<style>
+    body {
+        margin: 0;
+        background: #0d0d0d;
+        color: #e6e6e6;
+        font-family: Arial, sans-serif;
+    }
+
+    header {
+        text-align: center;
+        padding: 60px 20px;
+        background: linear-gradient(180deg, #000000, #111111);
+    }
+
+    h1 {
+        font-size: 42px;
+        margin-bottom: 10px;
+        color: #ffffff;
+    }
+
+    h2 {
+        margin-top: 40px;
+        color: #00c8ff;
+        border-left: 5px solid #00c8ff;
+        padding-left: 10px;
+    }
+
+    p {
+        line-height: 1.6;
+        color: #cccccc;
+    }
+
+    .section {
+        max-width: 900px;
+        margin: auto;
+        padding: 30px 20px;
+    }
+
+    .audio-box {
+        background: #1a1a1a;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px #000;
+    }
+
+    iframe {
+        width: 100%;
+        height: 166px;
+        border: none;
+        border-radius: 6px;
+    }
+
+    .contact-btn {
+        display: inline-block;
+        padding: 12px 24px;
+        background: #00c8ff;
+        color: #000;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+
+    .contact-btn:hover {
+        background: #009ccd;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        color: #777;
+        margin-top: 40px;
+        border-top: 1px solid #222;
+    }
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Mixing & Mastering Engineer</h1>
+    <p>10+ Years Experience • Clean • Industry Ready • Based in Minnesota</p>
+</header>
+
+<div class="section">
+    <h2>About Me</h2>
+    <p>
+        I’m a Mixing & Mastering Engineer with over a decade of experience across Hip-Hop, Afrobeats, Gospel, R&B, 
+        and more. I help artists achieve professional, polished, streaming-ready sound.  
+        All sessions are fully remote — send your stems, and I’ll take care of the rest.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Mix Samples</h2>
+
+    <!-- Mix Sample 1 -->
+    <div class="audio-box">
+        <p><strong>Track 1 – (Your Title)</strong></p>
+        <iframe scrolling="no" 
+            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/YOUR-SOUNDCLOUD-URL&color=%2300c8ff&inverse=false&auto_play=false&show_user=true">
+        </iframe>
+    </div>
+
+    <!-- Mix Sample 2 -->
+    <div class="audio-box">
+        <p><strong>Track 2 – (Your Title)</strong></p>
+        <iframe scrolling="no" 
+            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/YOUR-SOUNDCLOUD-URL&color=%2300c8ff&inverse=false&auto_play=false&show_user=true">
+        </iframe>
+    </div>
+
+    <!-- Mix Sample 3 -->
+    <div class="audio-box">
+        <p><strong>Track 3 – (Your Title)</strong></p>
+        <iframe scrolling="no" 
+            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/YOUR-SOUNDCLOUD-URL&color=%2300c8ff&inverse=false&auto_play=false&show_user=true">
+        </iframe>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Rates</h2>
+    <p>💠 <strong>Mixing:</strong> $50 per song</p>
+    <p>💠 <strong>Mastering:</strong> $25 per song</p>
+    <p>💠 <strong>Revisions:</strong> Included</p>
+    <p>💠 <strong>Turnaround:</strong> 24–48 hours</p>
+</div>
+
+<div class="section" style="text-align:center;">
+    <h2>Contact</h2>
+    <p>Ready to get started? Send your stems or message me for details.</p>
+    <a class="contact-btn" href="mailto:your-email@example.com">Email Me</a>
+</div>
+
+<footer>
+    © 2025 Your Name – Mixing & Mastering Engineer
+</footer>
+
+</body>
+</html>
